@@ -5,8 +5,8 @@
 Whenever a new release is published, this formula will need to be updated with the latest URL and checksum of the download tar file. To calculate the checsum to be used in the formula, the simplest approach is to curl the resource URL and pipe it to `shasum`. e.g.:
 
 ```bash
-curl -L -s https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric/darwin-amd64-1.0.0/hyperledger-fabric-darwin-amd64-1.0.0.tar.gz | shasum -a 256
-8b03d1e7d4dd287355a7d5021434e2ffab76c90b8359c8fe3f7f11bcae9d2dba
+curl -L -s https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric/darwin-amd64-1.1.0/hyperledger-fabric-darwin-amd64-1.1.0.tar.gz | shasum -a 256
+46bee0ddf51d6e47fac6b59906b2ea2e738194e92f0642c9b6fa0a0ad31077dd
 ```
 
 ### Testing
