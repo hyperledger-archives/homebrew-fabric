@@ -5,8 +5,9 @@
 class FabricTools < Formula
   desc "Hyperledger Fabric native binaries installer"
   homepage "https://hyperledger.org/projects/fabric"
-  url "https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric/darwin-amd64-1.1.0/hyperledger-fabric-darwin-amd64-1.1.0.tar.gz"
-  sha256 "46bee0ddf51d6e47fac6b59906b2ea2e738194e92f0642c9b6fa0a0ad31077dd"
+  url "https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric/darwin-amd64-1.3.0/hyperledger-fabric-darwin-amd64-1.3.0.tar.gz"
+  version "1.3.0"
+  sha256 "8580b49c651c0db1956b8a1147be1554b3a2bfcf91350e38038f977aa515c9fb"
 
   def install
     bin.install "bin/cryptogen"
