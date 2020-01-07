@@ -5,25 +5,17 @@
 Whenever a new release is published, this formula will need to be updated with the latest URL and checksum of the download tar file. To calculate the checsum to be used in the formula, the simplest approach is to curl the resource URL and pipe it to `shasum`. e.g.:
 
 ```bash
-curl -L -s https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric/darwin-amd64-1.3.0/hyperledger-fabric-darwin-amd64-1.3.0.tar.gz | shasum -a 256
-8580b49c651c0db1956b8a1147be1554b3a2bfcf91350e38038f977aa515c9fb
+curl -L -s https://github.com/hyperledger/fabric/releases/download/v1.4.4/hyperledger-fabric-darwin-amd64-1.4.4.tar.gz | shasum -a 256
+6ba9701a8913eda4e2d226f07bd0e3bb52effa143cd040bbdb6c877f6cd735a8
 ```
+
 
 ### Testing
 
 To test locally, first fork the github.com/hyperledger/homebrew-fabric
 repository to your personal GitHub account. Then, clone your fork to your
-laptop/workstation. Checkout the Gerrit CR for the change to be tested and
+laptop/workstation. Check out the change to be tested and
 apply to your local clone. Then push the changes to your personal fork.
-
-e.g. following the fork step:
-
-```bash
-git clone git@github.com:<your-github-id>/homebrew-fabric.git
-cd homebrew-fabric
-git fetch ssh://<your-lf-id>s@gerrit.hyperledger.org:29418/homebrew-fabric refs/changes/41/11241/5 && git checkout FETCH_HEAD
-git push origin HEAD:master
-```
 
 **Note:** you may also use the GitHub desktop client to clone and push.
 
