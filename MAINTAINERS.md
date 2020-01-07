@@ -3,29 +3,40 @@ Maintainers
 
 **Active Maintainers**
 
-| Name          |  Gerrit           |  GitHub        |  Chat  |  email
-|---------------|-------------------|----------------|--------------|---------------------------------------
-| Artem Barger  |  c0rwin           |  c0rwin        |  c0rwin      | <bartem@il.ibm.com>
-| Binh Nguyen   |  binhn            |  binhn         |  binhn         | <binhn@us.ibm.com>
-| Chris Ferris  |  ChristopherFerris | christo4ferris | cbf       |    <chris.ferris@gmail.com>
-| Dave Enyeart  |  denyeart          | denyeart       |  dave.enyeart | <enyeart@us.ibm.com>
-| Gari Singh    |  mastersingh24     | mastersingh24 |  garisingh    | <gari.r.singh@gmail.com>
-| Greg Haskins  |  greg.haskins     |  ghaskins      |  ghaskins     | <gregory.haskins@gmail.com>
-| Jason Yellick  | jyellick      |     jyellick     |   jyellick     | <jyellick@us.ibm.com>
-| Jim Zhang      | jimthematrix    |   jimthematrix  |  jimthematrix | jim\_the\_<matrix@hotmail.com>
-| Jonathan Levi  | JonathanLevi   |    JonathanLevi  |  JonathanLevi | <jonathan@hacera.com>
-| Keith Smith   |  smithbk       |     smithbk     |    smithbk      | <bksmith@us.ibm.com>
-| Kostas    Christidis    |   kchristidis   |     kchristidis   |  kostas     |   <kostas@gmail.com>
-| Manish Sethi   | manish-sethi    |   manish-sethi |   manish-sethi | <manish.sethi@gmail.com>
-| Srinivasan Muralidharan |      muralisr      |    muralisrini    | muralisr   |   <srinivasan.muralidharan99@gmail.com>
-| Yacov Manevich | yacovm     |        yacovm    |      yacovm      |  <yacovm@il.ibm.com>
-| Yaoguo Jiang  |  jiangyaoguo     |   jiangyaoguo   |  jiangyaoguo  | <jiangyaoguo@gmail.com>
+| Name | GitHub | Chat | email
+|------|--------|------|----------------------
+| Alessandro Sorniotti | ale-linux | aso | <ale.linux@sopit.net>
+| Artem Barger | c0rwin | c0rwin | <bartem@il.ibm.com>
+| Binh Nguyen | binhn | binhn | <binh1010010110@gmail.com>
+| Chris Ferris | christo4ferris | cbf | <chris.ferris@gmail.com>
+| Dave Enyeart | denyeart | dave.enyeart | <enyeart@us.ibm.com>
+| Gari Singh | mastersingh24 | mastersingh24 | <gari.r.singh@gmail.com>
+| Jason Yellick | jyellick | jyellick | <jyellick@us.ibm.com>
+| Jay Guo | guoger | guoger | <guojiannan1101@gmail.com>
+| Jonathan Levi | hacera | JonathanLevi | <jonathan@hacera.com>
+| Kostas Christidis | kchristidis | kostas | <kostas@gmail.com>
+| Manish Sethi | manish-sethi | manish-sethi | <manish.sethi@gmail.com>
+| Matthew Sykes | sykesm | sykesm | <sykesmat@us.ibm.com>
+| Pam Andrejko | pamandrejko | pandrejko | <pama@ibm.com>
+| Srinivasan Muralidharan | muralisrini | muralisr | <srinivasan.muralidharan99@gmail.com>
+| Yacov Manevich | yacovm | yacovm | <yacovm@il.ibm.com>
 
+**Release Managers**
+
+| Name | GitHub | Chat | email
+|------|--------|------|----------------------
+| Chris Ferris | christo4ferris | cbf | <chris.ferris@gmail.com>
+| Dave Enyeart | denyeart | dave.enyeart | <enyeart@us.ibm.com>
+| Gari Singh | mastersingh24 | mastersingh24 | <gari.r.singh@gmail.com>
 
 **Retired Maintainers**
 
-| Name          |  Gerrit           |  GitHub        |  Chat  |  email
-|---------------|-------------------|----------------|--------------|---------------------------------------
-| Gabor Hosszu |    hgabre  |       gabre     |     hgabor   | <gabor@digitalasset.com>
-| Sheehan Anderson | sheehan    |   srderson    |  sheehan | <sranderson@gmail.com>
-| Tamas Blummer  | TamasBlummer | tamasblummer | tamas   | <tamas@digitalasset.com>
+| Name | GitHub | Chat | email
+|------|--------|------|----------------------
+| Gabor Hosszu | gabre | hgabor | <gabor@digitalasset.com>
+| Sheehan Anderson | srderson | sheehan | <sranderson@gmail.com>
+| Tamas Blummer | tamasblummer | tamas | <tamas@digitalasset.com>
+| Jim Zhang | jimthematrix | jimthematrix | <jim_the_matrix@hotmail.com>
+| Yaoguo Jiang | jiangyaoguo | jiangyaoguo | <jiangyaoguo@gmail.com>
+| Greg Haskins | ghaskins | ghaskins | <gregory.haskins@gmail.com>
+| Keith Smith | smithbk | smithbk | <bksmith@us.ibm.com>
