@@ -2,11 +2,11 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-class FabricToolsAT120 < Formula
+class FabricToolsAT121 < Formula
   desc "Hyperledger Fabric native binaries installer"
   homepage "https://hyperledger.org/projects/fabric"
-  url "https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric/darwin-amd64-1.2.0/hyperledger-fabric-darwin-amd64-1.2.0.tar.gz"
-  sha256 "d56c9ce7d7e4262ec0900cfee24873e8512e69b352913344b9aa458a82ea3788"
+  url "https://github.com/hyperledger/fabric/releases/download/v1.2.1/hyperledger-fabric-darwin-amd64-1.2.1.tar.gz"
+  sha256 "eabec11a3d6b2110d5fa583641f44111b218caa0b02809983d616c04c07c75e9"
 
   def install
     bin.install "bin/cryptogen"
