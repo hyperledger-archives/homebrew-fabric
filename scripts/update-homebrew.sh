@@ -7,3 +7,4 @@ URL="https://github.com/hyperledger/fabric/releases/download/v${VERSION}/hyperle
 SHA=`curl -f -sSL ${URL} | shasum -a 256`
 echo 'url "'${URL}'"'
 echo 'sha256 "'${SHA:0:64}'"'
+#this is comment
