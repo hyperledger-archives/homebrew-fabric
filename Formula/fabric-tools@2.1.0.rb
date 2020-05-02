@@ -2,7 +2,8 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-class FabricToolsAT200 < Formula
+
+class FabricToolsAT210 < Formula
   desc "Hyperledger Fabric native binaries installer"
   homepage "https://hyperledger.org/projects/fabric"
   url "https://github.com/hyperledger/fabric/releases/download/v2.1.0/hyperledger-fabric-darwin-amd64-2.1.0.tar.gz"
